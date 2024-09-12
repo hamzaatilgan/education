@@ -38,6 +38,9 @@ p{
     background-color: black;
     border: 0;
 }
+.medium{
+    height: 5px;
+}
 .small-text{
     font-size: 0.85rem;
 }
@@ -58,4 +61,13 @@ p{
     font-size: 2.4em;
     font-weight: 700;
     margin: -7px -2px;
+}
+.right{
+    justify-content: flex-end;
+}
+.indent{
+    margin-left: 1em;
+}
+.daily-value p:not(.no-divider){
+    border-bottom: 1px solid #888989;
 }
