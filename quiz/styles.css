@@ -18,6 +18,12 @@ nav > ul{
     display: flex;
     justify-content: space-evenly;
 }
+nav > ul > li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
 h1,h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
