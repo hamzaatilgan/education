@@ -63,6 +63,11 @@ ul li {
   gap: 15px;
   opacity: 0.4;
   cursor: pointer;
+  transition: opacity 0.5s ease;
+}
+
+ul li:hover {
+  opacity: 1;
 }
 
 ul li span {
@@ -83,7 +88,7 @@ ul div {
   opacity: 0.4;
 }
 
-ul:hover,
+/* ul:hover,
 li:hover + div {
   opacity: 1;
   transition: 0.5s;
@@ -94,7 +99,7 @@ li:hover,
 span {
   opacity: 1;
   transition: 0.5s;
-}
+} */
 /* 
 .li2:hover, .li2:hover + div {
     opacity: 1;
