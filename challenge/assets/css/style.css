@@ -64,6 +64,7 @@ ul li {
   opacity: 0.4;
   cursor: pointer;
   transition: opacity 0.5s ease;
+  margin-bottom: 60px;
 }
 
 ul li:hover {
@@ -71,6 +72,7 @@ ul li:hover {
 }
 
 ul li span {
+  position: relative;
   width: 30px;
   height: 30px;
   border: 1px solid #1d3557;
@@ -80,12 +82,23 @@ ul li span {
   justify-content: center;
 }
 
-ul div {
+ul li span:after {
+  position: absolute;
+  top: 100%;
+  margin-top: 5px;
+  content: "";
   width: 1px;
   height: 50px;
   background-color: #1d3457;
-  margin: 5px 15px;
   opacity: 0.4;
+}
+
+ul li:last-child span {
+  margin-bottom: 0;
+}
+
+ul li:last-child span:after {
+  display: none;
 }
 
 /* ul:hover,
