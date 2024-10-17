@@ -1,0 +1,1 @@
+console.log('Bu yazı introduction.js dosyasından geldi bir external script örneği.' )
