@@ -1,9 +1,10 @@
 
 
-let youtubechannel = 'Hamzanın Kanalı'
-let channelage = 1
-let channelactive = true
-let secondchannel = null
-let channelmoney = undefined
+let youtubechannel = 'Hamzanın Youtube Kanalı',
+ channelage = "Aktif Kanal",
+ channelactive = true,
+ secondchannel = null,
+ channelmoney = undefined
 
-console.log(youtubechannel, channelage, channelactive, secondchannel, channelmoney)
+ console.log(youtubechannel, channelage, channelactive, secondchannel, channelmoney)
+
