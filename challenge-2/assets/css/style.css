@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient(circle at 50% 50%, #1d1b84, #000 87%);
+}
+
+body {
+    width: 1400px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.navmenu {
+    gap: 50px;
+    display: flex;
+}
+
+.navmenu > a {
+    color: white;
+    text-decoration: none;
+}
